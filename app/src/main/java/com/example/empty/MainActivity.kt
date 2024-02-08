@@ -8,10 +8,9 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
     var main_button_login: Button? = null
     var main_button_create: Button? = null
-    //asdsadsadsadssdasdasdasdsad
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main)
         init()
         main_button_login?.setOnClickListener {
             var intent = Intent(this,Login::class.java)
