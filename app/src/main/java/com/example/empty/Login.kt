@@ -14,7 +14,6 @@ class Login : AppCompatActivity() {
     var login_edit_password:EditText? = null
     var login_button_login:Button? = null
     var login_button_forgot:Button? = null
-    //asdadasddadad
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
