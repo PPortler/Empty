@@ -13,6 +13,10 @@
         android:theme="@style/Theme.Empty"
         tools:targetApi="31" >
         <activity
+            android:name=".Ac_main"
+            android:exported="false"
+            android:label="@string/title_activity_ac_main" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
